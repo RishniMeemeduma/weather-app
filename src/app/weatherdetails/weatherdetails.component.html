@@ -1,0 +1,11 @@
+<div class="col-md-12">
+      <h3 class="text-center">Weather Details:</h3>
+      <ul>
+      <li>Current weather conditions:<br><strong>{{this.weatherdata?.current.condition.text}}</strong></li>
+      <li>Temperature in Degrees Celsius:<br><strong>{{this.weatherdata?.current.temp_c}}</strong></li>
+      <li>Temperature in Degrees Farenheit:<br><strong>{{this.weatherdata?.current.temp_f}}</strong></li>
+      <li>Feels like in Degrees Celsius:<br><strong>{{this.weatherdata?.current.feelslike_c}}</strong></li>
+      <li>Feels like in Degrees Farenheit:<br><strong>{{this.weatherdata?.current.feelslike_f}}</strong></li>
+      <li>Location Searched:<br><strong>{{this.weatherdata?.location.name}},{{this.weatherdata?.location.country}}</strong></li>
+        </ul>
+    </div>
